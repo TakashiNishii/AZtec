@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const QuemSomos = () => {
+export const QuemSomos = () => {
   return (
     <div className='flex flex-col gap-6 justify-center mt-10'>
       <h2 className="text-4xl text-primary font-bold text-center">
@@ -68,12 +68,9 @@ const QuemSomos = () => {
           </ul>
         </div>
         <div className='hidden justify-end lg:flex md:flex-1'>
-
           <Image src={'/images/QuemSomos.png'} width={500} height={500} alt='Quem Somos' />
         </div>
       </div>
     </div>
   )
 }
-
-export default QuemSomos

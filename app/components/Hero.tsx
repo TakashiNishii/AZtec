@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <div
       className="hero max-h-[500px] bg-[url('/images/imageHero.png')] bg-cover bg-center"
@@ -20,5 +20,3 @@ const Hero = () => {
     </div>
   )
 }
-
-export default Hero

@@ -1,6 +1,4 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import QuemSomos from "./components/QuemSomos";
+import { Header, Hero, Principios, QuemSomos } from "./components";
 
 export default function Home() {
   return (
@@ -8,6 +6,7 @@ export default function Home() {
       <Header />
       <Hero />
       <QuemSomos />
+      <Principios />
     </div>
   );
 }

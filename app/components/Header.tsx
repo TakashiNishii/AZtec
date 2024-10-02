@@ -3,7 +3,7 @@
 import HeaderContent from "./HeaderContent/HeaderContent"
 import HeaderContentMobile from "./HeaderContent/HeaderContentMobile"
 
-const Header = () => {
+export const Header = () => {
   return (
     <div className="w-full bg-primary p-2 md:px-11">
       <HeaderContent />
@@ -11,5 +11,3 @@ const Header = () => {
     </div>
   )
 }
-
-export default Header
