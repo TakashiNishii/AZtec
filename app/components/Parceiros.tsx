@@ -1,5 +1,6 @@
 import React from 'react'
 import ParceirosList from './ParceirosContent/ParceirosList'
+import ParceirosListMobile from './ParceirosContent/ParceirosListMobile'
 
 const Parceiros = () => {
   return (
@@ -19,6 +20,7 @@ const Parceiros = () => {
           </p>
         </div>
       </div>
+      <ParceirosListMobile />
       <ParceirosList />
     </>
 

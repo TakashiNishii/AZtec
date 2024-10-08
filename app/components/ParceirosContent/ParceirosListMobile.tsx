@@ -4,13 +4,13 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const animation = { duration: 90000, easing: (t: any) => t }
+const animation = { duration: 25000, easing: (t: any) => t }
 
-const ParceirosList = () => {
+const ParceirosListMobile = () => {
   const [sliderRef] = useKeenSlider({
     loop: true,
     renderMode: "performance",
-    drag: false,
+    drag: true,
     created(s) {
       s.moveToIdx(5, true, animation)
     },
@@ -24,7 +24,7 @@ const ParceirosList = () => {
   // array of 200 positions
   const array = Array.from({ length: 20 }, (_, i) => i + 1)
   return (
-    <div ref={sliderRef} className="hidden md:keen-slider ">
+    <div ref={sliderRef} className="keen-slider md:hidden">
       {array.map(() => (
         <>
           <div className="keen-slider__slide bg-[url('/images/parceiros/parceiro1.png')] bg-no-repeat h-[150px]  md:!max-w-[25%] md:!min-w-[25%]" />
@@ -55,4 +55,4 @@ const ParceirosList = () => {
   )
 }
 
-export default ParceirosList
+export default ParceirosListMobile
