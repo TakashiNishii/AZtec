@@ -13,7 +13,6 @@ export const Hero = () => {
             e 
             Manutenção agroindustrial`}
           </h2>
-          <button className="mt-3 btn btn-secondary btn-circle w-full text-primary text-xl font-bold">Saiba Mais</button>
         </div>
       </div>
     </div>
