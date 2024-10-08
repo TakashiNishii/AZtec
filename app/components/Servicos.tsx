@@ -1,41 +1,66 @@
 "use client"
-import { useState } from 'react'
 import { servicos, } from './data/servicos'
-import classNames from 'classnames'
 import Image from 'next/image'
+import ServicosCard from './ServicosContent/ServicosCard'
+import animationData from "../../public/lotties/Gesto.json"
+import Lottie from "react-lottie"
+import { useKeenSlider } from 'keen-slider/react'
+
+const defaultOptions = {
+  loop: true,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: "xMidYMid slice"
+  }
+};
 
 const Servicos = () => {
-  const [selectedService, setSelectedService] = useState(servicos[0])
-  // const servicesContent = servicosData
-  // console.log(selectedService)
+
+  const [ref] = useKeenSlider<HTMLDivElement>({
+    breakpoints: {
+      "(min-width: 768px)": {
+        slides: { perView: 2, spacing: 5 },
+      },
+      "(min-width: 1200px)": {
+        slides: { perView: 3, spacing: 10 },
+      },
+      "(min-width: 1400px)": {
+        slides: { perView: 4, spacing: 10 },
+      },
+    },
+    slides: { perView: 1 },
+  })
+
   return (
     <div className='w-full p-2 md:px-11'>
       <div className='bg-primary w-full rounded-3xl flex flex-col gap-4 py-8'>
         <h2 className='text-center text-4xl text-secondary font-bold'>
-          Serviços
+          Áreas de atuação
         </h2>
-        <div className='flex flex-row flex-wrap max-w-full gap-10 justify-center'>
+        <div className="carousel rounded-box gap-2 w-[99%] self-end">
+
+        </div>
+        <div ref={ref} className="keen-slider">
           {servicos.map((servico) => (
-            <button
-              key={servico.id}
-              className={classNames(
-                "badge badge-lg text-lg font-semibold p-4 min-w-[250px]",
-                selectedService.id === servico.id ? "badge-secondary text-primary" : " badge-outline badge-secondary text-primary hover:bg-secondary hover:text-primary"
-              )}
-              onClick={() => setSelectedService(servico)}
-            >
-              {servico.title}
-            </button>
+            <div key={servico.id} className="keen-slider__slide ">
+              <ServicosCard
+                key={servico.id}
+                image={servico.image}
+                title={servico.title}
+              />
+            </div>
           ))}
         </div>
-
-        {/* <div className='w-3/4 bg-secondary'>
-          {servicesContent.find((service) => service.id === selectedService.id)}
-        </div> */}
+        <Lottie
+          options={defaultOptions}
+          height={100}
+          width={200}
+        />
       </div>
       <div className='mt-10 flex flex-col md:flex-row justify-center items-center md:gap-20 '>
         <div className='flex-1 md:max-w-[25%]'>
-          <Image src={"/images/24horas.png"} alt={selectedService.title} width={500} height={500} />
+          <Image src={"/images/24horas.png"} alt={"24 horas plantão!"} width={500} height={500} />
         </div>
         <div className='flex-1 md:max-w-[30%] md:text-lg font-semibold'>
           Para garantir um atendimento eficiente e oportuno, contamos com equipes de plantão disponíveis

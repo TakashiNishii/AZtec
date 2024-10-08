@@ -1,47 +1,58 @@
 export const servicos = [
   {
     id: 1,
-    title: 'Válvulas'
+    title: 'Válvulas',
+    image: '/images/valvulas/valvulas1.png'
   },
   {
     id: 2,
-    title: "Manutenção in loco"
+    title: "Manutenção in loco",
+    image: "/images/inloco/inloco1.png"
   },
   {
     id: 3,
-    title: "Purgadores"
+    title: "Purgadores",
+    image: "/images/purgadores/purgadores1.png"
   },
   {
     id: 4,
-    title: "Sopradores de fuligem"
+    title: "Sopradores de fuligem",
+    image: "/images/sopradores/sopradores1.png"
   },
   {
     id: 5,
-    title: "Visores de nível"
+    title: "Visores de nível",
+    image: "/images/visor/visor1.png"
   },
   {
     id: 6,
-    title: "Bombas"
+    title: "Bombas",
+    image: "/images/bombas/bomba1.png"
   },
   {
     id: 7,
-    title: "Usinagem"
+    title: "Usinagem",
+    image: "/images/usinagem/usinagem1.png"
   },
   {
     id: 8,
-    title: "Projetos e engenharia"
+    title: "Projetos e engenharia",
+    image: "/images/projetoengenharia/projetoengenharia1.png"
   },
   {
     id: 9,
-    title: "Inspeções e Calibração NR-13"
+    title: "Inspeções e Calibração NR-13",
+    image: "/images/calibracao/calibracao1.png"
   },
   {
     id: 10,
-    title: "Cálculos de elementos finitos"
+    title: "Cálculos de elementos finitos",
+    image: "/images/calculos/calculo1.png"
   },
   {
     id: 11,
-    title: "Linhas de Vida"
+    title: "Linhas de Vida",
+    image: "/images/linhadevida/linhadevida1.png"
   }
 ]
 
