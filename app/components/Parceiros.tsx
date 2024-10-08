@@ -7,6 +7,7 @@ const Parceiros = () => {
     <>
       <div
         className="hero min-h-[300px] bg-[url('/images/parceiros.png')] bg-cover bg-center"
+        id='parceiros'
       >
         <div className="hero-overlay bg-primary bg-opacity-75"></div>
 

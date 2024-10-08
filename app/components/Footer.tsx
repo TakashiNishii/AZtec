@@ -50,7 +50,7 @@ const Footer = () => {
         </aside>
 
         <nav className='w-full md:w-1/2 self-center'>
-          <h3 className="text-2xl font-bold">Nos envie um e-mail!</h3>
+          <h3 className="text-2xl font-bold text-center">Nos envie um e-mail!</h3>
           <Link href={"mailto:ygortn14@gmail.com"} className='btn btn-secondary btn-circle w-full text-primary text-xl font-bold'>
             <EnvelopeIcon className='w-10 h-10' />
           </Link>

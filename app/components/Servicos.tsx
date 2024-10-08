@@ -33,7 +33,7 @@ const Servicos = () => {
   })
 
   return (
-    <div className='w-full p-2 md:px-11'>
+    <div className='w-full p-2 md:px-11' id='servicos'>
       <div className='bg-primary w-full rounded-3xl flex flex-col gap-4 py-8'>
         <h2 className='text-center text-4xl text-secondary font-bold'>
           Áreas de atuação
