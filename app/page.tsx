@@ -1,4 +1,5 @@
 import { Header, Hero, Principios, QuemSomos } from "./components";
+import Parceiros from "./components/Parceiros";
 import Servicos from "./components/Servicos";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <QuemSomos />
       <Principios />
       <Servicos />
+      <Parceiros />
     </div>
   );
 }

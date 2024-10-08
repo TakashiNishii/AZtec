@@ -37,13 +37,12 @@ const Servicos = () => {
         <div className='flex-1 max-w-[25%]'>
           <Image src={"/images/24horas.png"} alt={selectedService.title} width={500} height={500} />
         </div>
-        <p className='flex-1 max-w-[30%] text-lg font-semibold'>
+        <div className='flex-1 max-w-[30%] text-lg font-semibold'>
           Para garantir um atendimento eficiente e oportuno, contamos com equipes de plantão disponíveis
           <span className='text-lg font-bold text-primary'> 24 horas por dia </span>, prontas para atender às necessidades dos nossos clientes,
           <span className='text-lg font-bold text-primary'> independentemente do dia ou da hora.</span>
-
           <div className='divider divider-primary  w-full' />
-        </p>
+        </div>
       </div>
     </div>
   )

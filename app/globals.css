@@ -2,68 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-.literata-thin {
-  font-family: "Literata", sans-serif;
+.montserrat-thin {
+  font-family: "Montserrat", sans-serif;
   font-weight: 200;
   font-style: normal;
 }
 
-.literata-light {
-  font-family: "Literata", sans-serif;
+.montserrat-light {
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.literata-regular {
-  font-family: "Literata", sans-serif;
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-.literata-bold {
-  font-family: "Literata", sans-serif;
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.literata-black {
-  font-family: "Literata", sans-serif;
+.montserrat-black {
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 
-.literata-thin-italic {
-  font-family: "Literata", sans-serif;
+.montserrat-thin-italic {
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-style: italic;
 }
 
-.literata-light-italic {
-  font-family: "Literata", sans-serif;
+.montserrat-light-italic {
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-style: italic;
 }
 
-.literata-regular-italic {
-  font-family: "Literata", sans-serif;
+.montserrat-regular-italic {
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: italic;
 }
 
-.literata-bold-italic {
-  font-family: "Literata", sans-serif;
+.montserrat-bold-italic {
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-style: italic;
 }
 
-.literata-black-italic {
-  font-family: "Literata", sans-serif;
+.montserrat-black-italic {
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-style: italic;
 }
 
 html {
-  font-family: 'Literata';
+  font-family: 'Montserrat';
 }
 
 .btn {
