@@ -24,7 +24,7 @@ const ParceirosListMobile = () => {
   // array of 200 positions
   const array = Array.from({ length: 20 }, (_, i) => i + 1)
   return (
-    <div ref={sliderRef} className="keen-slider md:hidden">
+    <div ref={sliderRef} className="keen-slider md:!hidden">
       {array.map(() => (
         <>
           <div className="keen-slider__slide bg-[url('/images/parceiros/parceiro1.png')] bg-no-repeat h-[150px]  md:!max-w-[25%] md:!min-w-[25%]" />
