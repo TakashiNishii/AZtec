@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { servicos, } from './data/servicos'
 import classNames from 'classnames'
+import Image from 'next/image'
 
 const Servicos = () => {
   const [selectedService, setSelectedService] = useState(servicos[0])
@@ -32,7 +33,18 @@ const Servicos = () => {
           {servicesContent.find((service) => service.id === selectedService.id)}
         </div> */}
       </div>
+      <div className='mt-10 flex flex-row justify-center items-center gap-20 '>
+        <div className='flex-1 max-w-[25%]'>
+          <Image src={"/images/24horas.png"} alt={selectedService.title} width={500} height={500} />
+        </div>
+        <p className='flex-1 max-w-[30%] text-lg font-semibold'>
+          Para garantir um atendimento eficiente e oportuno, contamos com equipes de plantão disponíveis
+          <span className='text-lg font-bold text-primary'> 24 horas por dia </span>, prontas para atender às necessidades dos nossos clientes,
+          <span className='text-lg font-bold text-primary'> independentemente do dia ou da hora.</span>
 
+          <div className='divider divider-primary  w-full' />
+        </p>
+      </div>
     </div>
   )
 }
