@@ -46,7 +46,8 @@ const Servicos = () => {
             <div key={servico.id} className="keen-slider__slide ">
               <ServicosCard
                 key={servico.id}
-                image={servico.image}
+                id={servico.id}
+                image={servico.image[0]}
                 title={servico.title}
               />
             </div>

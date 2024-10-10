@@ -5,7 +5,6 @@ import { Principios } from '../components'
 export default function QuemSomosPage() {
   return (
     <div>
-
       <QuemSomosComplete />
       <Principios />
     </div>

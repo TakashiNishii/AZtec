@@ -1,11 +1,13 @@
 import Image from "next/image"
+import Link from "next/link"
 
 interface ServicosCardProps {
+  id: number
   title: string
   image: string
 }
 const ServicosCard = (
-  { title, image }: ServicosCardProps
+  { id, title, image }: ServicosCardProps
 ) => {
   return (
     <div className="card w-full max-w-sm mx-auto md:w-80 max-h-96 shadow-xl pt-2 bg-slate-500">
@@ -15,7 +17,7 @@ const ServicosCard = (
       <div className="card-body items-center text-center bg-base-100 rounded-b-2xl">
         <h2 className="card-title">{title}</h2>
         <div className="card-actions w-full">
-          <button className="btn btn-primary text-secondary rounded-full w-full">Saiba Mais</button>
+          <Link href={`/servicos?id=${id}`} className="btn btn-primary text-secondary rounded-full w-full">Saiba Mais</Link>
         </div>
       </div>
     </div>
