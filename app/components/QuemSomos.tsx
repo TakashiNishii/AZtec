@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export const QuemSomos = () => {
@@ -27,12 +28,12 @@ export const QuemSomos = () => {
             Promovemos um programa contínuo de desenvolvimento e aprimoramento da nossa equipe, garantindo qualidade e confiabilidade em nossos serviços.
           </p>
 
-          <button className="hidden md:block mt-3 btn btn-primary btn-circle w-full text-secondary text-xl font-bold">Saiba Mais</button>
+          <Link href={"/quem-somos"} className="hidden md:flex mt-3 btn btn-primary btn-circle w-full text-secondary text-xl font-bold">Saiba Mais</Link>
         </div>
         <div className='justify-center lg:flex md:flex-1'>
           <Image src={'/images/QuemSomos.png'} width={500} height={500} alt='Quem Somos' />
         </div>
-        <button className="md:hidden mt-3 btn btn-primary btn-circle w-full text-secondary text-xl font-bold">Saiba Mais</button>
+        <Link href={"/quem-somos"} className="md:hidden mt-3 btn btn-primary btn-circle w-full text-secondary text-xl font-bold">Saiba Mais</Link>
       </div>
     </div>
   )

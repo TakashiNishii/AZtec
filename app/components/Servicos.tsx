@@ -41,7 +41,7 @@ const Servicos = () => {
         <div className="carousel rounded-box gap-2 w-[99%] self-end">
 
         </div>
-        <div ref={ref} className="keen-slider">
+        <div ref={ref} className="keen-slider cursor-grab active:cursor-grabbing">
           {servicos.map((servico) => (
             <div key={servico.id} className="keen-slider__slide ">
               <ServicosCard
