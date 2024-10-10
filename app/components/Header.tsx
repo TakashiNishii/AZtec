@@ -5,7 +5,7 @@ import HeaderContentMobile from "./HeaderContent/HeaderContentMobile"
 
 export const Header = () => {
   return (
-    <div className="w-full bg-primary shadow-md z-30 px-4">
+    <div className="w-full bg-primary shadow-md z-30">
       <HeaderContent />
       <HeaderContentMobile />
     </div>

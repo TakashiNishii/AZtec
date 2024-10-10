@@ -6,11 +6,11 @@ import React from 'react'
 export const QuemSomosComplete = () => {
   return (
     <div className='flex flex-col gap-6 justify-center'>
-      <Link href={"/"} className='flex items-center'>
+      <Link href={"/"} className='flex items-center mt-24'>
         <ChevronLeftIcon className='w-10 h-10 text-primary' />
         <p className='text-primary font-semibold'>Voltar</p>
       </Link>
-      <h2 className="text-4xl text-primary font-bold text-center mt-10">
+      <h2 className="text-4xl text-primary font-bold text-center">
         Quem Somos?
       </h2>
 

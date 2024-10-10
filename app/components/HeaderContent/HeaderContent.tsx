@@ -5,7 +5,7 @@ import React from 'react'
 
 const HeaderContent = () => {
   return (
-    <div className='hidden md:flex md:flex-row gap-10'>
+    <div className='hidden md:flex md:flex-row gap-10 px-4'>
       <Link href={"/"}>
         <Image src="/images/LogoHero.png" alt="Logo AZtec" width="200" height="200" />
       </Link>

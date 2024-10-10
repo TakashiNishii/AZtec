@@ -15,7 +15,7 @@ const ServicosInfo = () => {
 
   return (
     <>
-      <h2 className="text-4xl text-primary font-bold text-center mt-10">
+      <h2 className="text-4xl text-primary font-bold text-center">
         {servicoInfo.title}
       </h2>
       {servicoInfo.subtitle && (
