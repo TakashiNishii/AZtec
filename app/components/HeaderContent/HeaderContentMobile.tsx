@@ -10,7 +10,7 @@ const HeaderContentMobile = () => {
     drawerButton?.click()
   }
   return (
-    <nav className="drawer fixed bg-primary md:hidden">
+    <nav className="drawer fixed bg-primary z-50 md:hidden">
       <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content navbar">
         <div className="flex-none">
@@ -29,7 +29,9 @@ const HeaderContentMobile = () => {
           </label>
         </div>
 
-        <Image src="/images/Logo.png" alt="Logo AZtec" width="125" height="125" className='mx-auto' />
+        <Link href={"/"} className='mx-auto shadow-sm'>
+          <Image src="/images/LogoHero.png" alt="Logo AZtec" width="200" height="200" />
+        </Link>
       </div>
 
       <div className="drawer-side z-40">

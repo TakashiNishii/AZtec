@@ -1,10 +1,16 @@
+import { ChevronLeftIcon } from '@heroicons/react/16/solid'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
-export const QuemSomosOLD = () => {
+export const QuemSomosComplete = () => {
   return (
-    <div className='flex flex-col gap-6 justify-center mt-10'>
-      <h2 className="text-4xl text-primary font-bold text-center">
+    <div className='flex flex-col gap-6 justify-center'>
+      <Link href={"/"} className='flex items-center'>
+        <ChevronLeftIcon className='w-10 h-10 text-primary' />
+        <p className='text-primary font-semibold'>Voltar</p>
+      </Link>
+      <h2 className="text-4xl text-primary font-bold text-center mt-10">
         Quem Somos?
       </h2>
 
@@ -67,7 +73,8 @@ export const QuemSomosOLD = () => {
             </li>
           </ul>
         </div>
-        <div className='hidden justify-end lg:flex md:flex-1'>
+        <div className='hidden items-center justify-between gap-2 lg:flex lg:flex-col md:flex-1'>
+          <Image src={'/images/imageHero.png'} width={500} height={300} alt='Quem Somos' className='border-4 border-primary rounded-lg shadow-2xl max-h-[295px]' />
           <Image src={'/images/QuemSomos.png'} width={500} height={500} alt='Quem Somos' />
         </div>
       </div>

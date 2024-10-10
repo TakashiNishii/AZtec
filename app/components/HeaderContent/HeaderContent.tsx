@@ -6,7 +6,9 @@ import React from 'react'
 const HeaderContent = () => {
   return (
     <div className='hidden md:flex md:flex-row gap-10'>
-      <Image src="/images/LogoHero.png" alt="Logo AZtec" width="200" height="200" />
+      <Link href={"/"}>
+        <Image src="/images/LogoHero.png" alt="Logo AZtec" width="200" height="200" />
+      </Link>
       <nav className="flex flex-col flex-1 text-secondary font-semibold justify-start items-start">
         <div className='w-full flex flex-row flex-wrap justify-between items-center'>
           <div className='flex flex-row gap-4 items-center'>
