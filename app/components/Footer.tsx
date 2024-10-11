@@ -16,7 +16,7 @@ const Footer = () => {
           <h3 className="text-2xl font-bold">Contato</h3>
           <div className='flex flex-row gap-2 w-full items-center'>
             <PhoneIcon className='w-10 h-10' />
-            <span className="text-lg">Plantão: (16) 99107-3633</span>
+            <span className="text-lg">Plantão: (16) 99779-9898</span>
           </div>
 
           <div className='flex flex-row gap-2 w-full items-center'>

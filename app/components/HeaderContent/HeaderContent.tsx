@@ -16,7 +16,7 @@ const HeaderContent = () => {
               <Image src="/icons/plantao.png" alt="Telefone" width={20} height={20} />
               <p className='text-sm font-medium'>
                 <span className='hidden lg:inline'>Plantão: </span>
-                (16) 99107-3633
+                (16) 99779-9898
               </p>
             </div>
             <div className='flex gap-2'>

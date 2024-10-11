@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
 import { Header } from "./components";
+import WhatsappButton from "./components/WhatsappButton";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: "300" });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
 
         <Header />
         {children}
+        <WhatsappButton />
         <Footer />
       </body>
     </html>

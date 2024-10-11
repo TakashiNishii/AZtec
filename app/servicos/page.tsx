@@ -12,7 +12,6 @@ export default function ServicosPage() {
         <p className='text-primary font-semibold'>Voltar</p>
       </Link>
       <Suspense fallback={<div>Carregando informações...</div>}>
-
         <ServicosInfo />
       </Suspense>
     </div>
