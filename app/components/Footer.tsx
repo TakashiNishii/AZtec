@@ -10,8 +10,8 @@ const Footer = () => {
 
       <Image src="/images/LogoHero.png" alt="AZtec" width={150} height={150} className='md:self-start' />
       <div className='flex flex-col gap-4 md:flex-row justify-between w-full'>
-        <aside className='flex flex-col justify-center items-center'>
-          <h3 className="text-lg font-bold">Localização</h3>
+        <aside className='flex flex-col justify-center items-center md:items-start'>
+          <h3 className="text-lg font-bold">Localização da Matriz</h3>
           <p className="text-md">R. dos Coqueiros, 2945 - CEP 79839-000, Jd. Colibri - Dourados - MS</p>
 
           <h3 className="text-lg font-bold">Siga-nos</h3>
