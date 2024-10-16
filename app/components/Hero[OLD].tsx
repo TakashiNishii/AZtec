@@ -2,7 +2,7 @@ import { ArrowDownCircleIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image'
 import React from 'react'
 
-export const Hero = () => {
+export const HeroOLD = () => {
   return (
     <div
       className="hero min-h-[calc(100dvh-20dvh)]  bg-[url('/images/imageHero.png')] bg-cover bg-center shadow-2xl border-b-2 border-primary"

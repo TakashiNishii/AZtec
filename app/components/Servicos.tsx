@@ -39,7 +39,6 @@ const Servicos = () => {
           Áreas de atuação
         </h2>
         <div className="carousel rounded-box gap-2 w-[99%] self-end">
-
         </div>
         <div ref={ref} className="keen-slider cursor-grab active:cursor-grabbing">
           {servicos.map((servico) => (
