@@ -27,7 +27,7 @@ Realizamos as manutenções através de procedimentos de manutenção estabeleci
   {
     id: 5,
     title: "Manutenção in loco",
-    image: ["/images/inloco/inloco1.png", "/images/inloco/inloco2.png"],
+    image: ["/images/inloco/InLoco1.png", "/images/inloco/InLoco2.png"],
     description: `Contando com estrutura, ferramental e equipamentos específicos, bem como equipe técnica especializada para atuação em campo, somos capazes de levar o serviço de manutenção até as dependências de nossos clientes, garantindo operação contínua e eficientes de equipamentos no seu local de instalação. Estes serviços abrangem além da manutenção: inspeções, reparos, ajustes, desmontagem e montagem de equipamentos da linha e substituições de peças danificas, minimizando o tempo de inatividade e evitando a necessidade de transporte dos equipamentos para oficinas externas.`,
     list: [
       '• Economia de Tempo: Evitando a parada da produção e perdas financeiras;',
