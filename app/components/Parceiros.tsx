@@ -6,12 +6,12 @@ const Parceiros = () => {
   return (
     <>
       <div
-        className="hero min-h-[300px] bg-[url('/images/parceiros.png')] bg-cover bg-center"
+        className="hero min-h-[200px] bg-[url('/images/parceiros.png')] bg-cover bg-center"
         id='parceiros'
       >
         <div className="hero-overlay bg-primary bg-opacity-75"></div>
 
-        <div className="hero-content w-full md:w-1/4 flex-col gap-2 text-neutral-content text-center">
+        <div className="hero-content w-full md:w-1/2 flex-col gap-2 text-neutral-content text-center">
           <h2 className="text-2xl text-secondary font-bold">
             Nossos Parceiros
           </h2>

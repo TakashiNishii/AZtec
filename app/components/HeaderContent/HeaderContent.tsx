@@ -30,7 +30,7 @@ const HeaderContent = () => {
               <EnvelopeIcon className='w-7 h-7' />
               <p className='text-sm font-medium'>
                 <span className='hidden lg:inline'>Email: </span>
-                vendas@aztec.ind.br
+                comercial@aztec.ind.br
               </p>
             </div>
           </div>
