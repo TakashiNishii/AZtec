@@ -60,10 +60,10 @@ const Servicos = () => {
         />
       </div>
       <div className='mt-10 flex flex-col md:flex-row justify-center items-center md:gap-20 '>
-        <div className='flex-1 md:max-w-[25%]'>
-          <Image src={"/images/24horas.png"} alt={"24 horas plantão!"} width={500} height={500} />
+        <div className='flex-1 md:max-w-[10%]'>
+          <Image src={"/images/24horas.png"} alt={"24 horas plantão!"} width={200} height={200} />
         </div>
-        <div className='flex-1 md:max-w-[30%] md:text-lg font-semibold'>
+        <div className='flex-1 md:text-lg font-semibold'>
           Para garantir um atendimento eficiente e oportuno, contamos com equipes de plantão disponíveis
           <span className='text-lg font-bold text-primary'> 24 horas por dia </span>, prontas para atender às necessidades dos nossos clientes,
           <span className='text-lg font-bold text-primary'> independentemente do dia ou da hora.</span>
