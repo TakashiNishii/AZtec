@@ -38,25 +38,26 @@ const Servicos = () => {
         <h2 className='text-center text-4xl text-secondary font-bold'>
           Áreas de atuação
         </h2>
-        <div className="carousel rounded-box gap-2 w-[99%] self-end">
+        <div ref={ref} className="navigation-wrapper !cursor-grab active:!cursor-grabbing">
+          <div className="keen-slider">
+            {servicos.map((servico) => (
+              <div key={servico.id} className="keen-slider__slide ">
+                <ServicosCard
+                  key={servico.id}
+                  id={servico.id}
+                  image={servico.image[0]}
+                  title={servico.title}
+                />
+              </div>
+            ))}
+          </div>
+          <Lottie
+            options={defaultOptions}
+            height={100}
+            width={200}
+          />
         </div>
-        <div ref={ref} className="keen-slider cursor-grab active:cursor-grabbing">
-          {servicos.map((servico) => (
-            <div key={servico.id} className="keen-slider__slide ">
-              <ServicosCard
-                key={servico.id}
-                id={servico.id}
-                image={servico.image[0]}
-                title={servico.title}
-              />
-            </div>
-          ))}
-        </div>
-        <Lottie
-          options={defaultOptions}
-          height={100}
-          width={200}
-        />
+
       </div>
       <div className='mt-10 flex flex-col md:flex-row justify-center items-center md:gap-20 '>
         <div className='flex-1 md:max-w-[10%]'>
