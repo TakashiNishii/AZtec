@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "./components/Footer";
 import { Header } from "./components";
 import WhatsappButton from "./components/WhatsappButton";
+import Head from "next/head";
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: "300" });
 
@@ -20,6 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <script async src={`https://maps.googleapis.com/maps/api/js?key=${process.env.Google_API_Key}&callback=console.debug&libraries=maps,marker&v=beta`}>
+        </script>
+      </Head>
       <body
         className={`${montserrat.className} min-h-dvh bg-secondary antialiased`}
       >

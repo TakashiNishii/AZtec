@@ -12,6 +12,7 @@
     "@headlessui/react": "^2.1.10",
     "@heroicons/react": "^2.1.5",
     "@next/font": "^14.2.14",
+    "@vis.gl/react-google-maps": "^1.3.0",
     "classnames": "^2.5.1",
     "keen-slider": "^6.8.6",
     "next": "14.2.14",

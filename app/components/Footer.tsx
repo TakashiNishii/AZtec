@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <footer className="footer flex flex-col items-center bg-primary text-secondary p-10 shadow-md">
 
-      <Image src="/images/LogoHero.png" alt="AZtec" width={150} height={150} className='self-start' />
+      <Image src="/images/LogoHero.png" alt="AZtec" width={150} height={150} className='md:self-start' />
       <div className='flex flex-col gap-4 md:flex-row justify-between w-full'>
-        <aside>
+        <aside className='flex flex-col justify-center items-center'>
           <h3 className="text-lg font-bold">Localização</h3>
           <p className="text-md">R. dos Coqueiros, 2945 - CEP 79839-000, Jd. Colibri - Dourados - MS</p>
 
           <h3 className="text-lg font-bold">Siga-nos</h3>
-          <div className='flex flex-row w-full gap-4'>
+          <div className='flex flex-row w-full gap-4 justify-center md:justify-start'>
             {/* Facebook */}
             <Link href={"https://www.facebook.com/p/Aztec-Engenharia-100064005496513/"} target='_blank' className='hover:opacity-75'>
               <Image src="/icons/facebook.svg" alt="Facebook" width={25} height={25} />

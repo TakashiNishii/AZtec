@@ -1,4 +1,5 @@
 import { Hero, QuemSomos } from "./components";
+import OndeEstamos from "./components/OndeEstamos";
 import Parceiros from "./components/Parceiros";
 import Servicos from "./components/Servicos";
 
@@ -9,6 +10,8 @@ export default function Home() {
       <QuemSomos />
       <Servicos />
       <Parceiros />
+      <div className="divider divider-primary w-full" />
+      <OndeEstamos />
     </div>
   );
 }
