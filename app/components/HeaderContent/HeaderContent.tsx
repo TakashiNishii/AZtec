@@ -58,6 +58,7 @@ const HeaderContent = () => {
           <Link href={"/quem-somos"} className='hover:text-black'>Quem Somos?</Link>
           <Link href={"/#servicos"} className='hover:text-black'>Serviços</Link>
           <Link href={"/#parceiros"} className='hover:text-black'>Parceiros</Link>
+          <Link href={"/#onde-estamos"} className='hover:text-black'>Onde Estamos</Link>
         </ul>
       </nav>
     </div>

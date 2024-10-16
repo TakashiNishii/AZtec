@@ -46,6 +46,7 @@ const HeaderContentMobile = () => {
           <Link href={"/quem-somos"} onClick={() => closeDrawer()} className='text-white text-lg font-bold hover:text-black'>Quem Somos?</Link>
           <Link href={"/#servicos"} onClick={() => closeDrawer()} className='text-white text-lg font-bold hover:text-black'>Serviços</Link>
           <Link href={"/#parceiros"} onClick={() => closeDrawer()} className='text-white text-lg font-bold hover:text-black'>Parceiros</Link>
+          <Link href={"/#onde-estamos"} onClick={() => closeDrawer()} className='text-white text-lg font-bold hover:text-black'>Onde Estamos</Link>
         </ul>
       </div>
     </nav>
