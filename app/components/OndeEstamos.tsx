@@ -7,7 +7,7 @@ const OndeEstamos = () => {
       <h2 className="text-4xl text-primary font-bold text-center">
         Onde Estamos?
       </h2>
-      <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
+      <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? ""}>
         <Map
           className='border w-full h-[100vh] md:w-[50vw] md:h-[50vh] self-center'
           defaultCenter={{ lat: -13.076376914978027, lng: -51.726345062255864 }}
