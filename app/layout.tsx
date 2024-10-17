@@ -12,6 +12,30 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: "300" });
 export const metadata: Metadata = {
   title: "AZtec",
   description: "Soluções integradas de engenharia e manutenção agroindustrial",
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "https://aztec.eng.br",
+    siteName: "AZtec",
+    title: "AZtec",
+    description: "Soluções integradas de engenharia e manutenção agroindustrial",
+    images: [
+      {
+        url: "https://aztec.eng.br/images/logo.png",
+        width: 800,
+        height: 600,
+        alt: "AZtec Logo",
+      },
+    ],
+  },
+  icons: [
+    {
+      url: "/favicon.ico",
+      rel: "icon",
+      type: "image/x-icon",
+    },
+  ],
+
 };
 
 export default function RootLayout({
