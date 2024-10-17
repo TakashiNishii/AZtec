@@ -15,13 +15,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://aztec.eng.br",
+    url: "https://aztec.ind.br",
     siteName: "AZtec",
     title: "AZtec",
     description: "Soluções integradas de engenharia e manutenção agroindustrial",
     images: [
       {
-        url: "https://aztec.eng.br/images/logo.png",
+        url: "https://aztec.ind.br/images/Logo.png",
         width: 800,
         height: 600,
         alt: "AZtec Logo",
