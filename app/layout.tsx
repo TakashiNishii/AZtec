@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     description: "Soluções integradas de engenharia e manutenção agroindustrial",
     images: [
       {
-        url: "https://www.aztec.ind.br/images/LogoHero.png",
-        width: 350,
-        height: 120,
+        url: "https://www.aztec.ind.br/images/LogoMetadata.png",
+        width: 1600,
+        height: 900,
         alt: "AZtec Logo",
       },
     ],
