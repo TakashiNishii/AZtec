@@ -4,7 +4,7 @@ import React from 'react'
 
 export const QuemSomos = () => {
   return (
-    <div className='flex flex-col gap-6 justify-center mt-10'>
+    <div id='quem-somos' className='flex flex-col gap-6 justify-center mt-10'>
       <h2 className="text-4xl text-primary font-bold text-center">
         Quem Somos?
       </h2>

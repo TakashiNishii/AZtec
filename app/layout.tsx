@@ -48,6 +48,7 @@ export default function RootLayout({
       <Head>
         <script async src={`https://maps.googleapis.com/maps/api/js?key=${process.env.Google_API_Key}&callback=console.debug&libraries=maps,marker&v=beta`}>
         </script>
+        <meta name="google-site-verification" content="cj-_0KfSUoaGPQ747x6MWuOHI21yZs5vuDpGAJYiMYg" />
       </Head>
       <body
         className={`${montserrat.className} min-h-dvh bg-secondary antialiased`}
