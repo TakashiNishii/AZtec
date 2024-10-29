@@ -9,7 +9,7 @@ const OndeEstamos = () => {
       </h2>
       <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY ?? ""}>
         <Map
-          className='border w-full h-[100vh] md:w-[50vw] md:h-[50vh] self-center'
+          className='border w-[95vw] h-[50vh] md:w-[50vw] md:h-[50vh] self-center'
           defaultCenter={{ lat: -13.076376914978027, lng: -51.726345062255864 }}
           defaultZoom={3.5}
           gestureHandling={'greedy'}
