@@ -35,7 +35,9 @@ export const metadata: Metadata = {
       type: "image/x-icon",
     },
   ],
-
+  verification: {
+    google: "cj-_0KfSUoaGPQ747x6MWuOHI21yZs5vuDpGAJYiMYg"
+  }
 };
 
 export default function RootLayout({
