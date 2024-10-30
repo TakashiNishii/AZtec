@@ -10,7 +10,7 @@ const montserrat = Montserrat({ subsets: ["latin"], weight: "300" });
 
 
 export const metadata: Metadata = {
-  title: "AZtec",
+  title: "Aztec Engenharia e Manutenção Industrial",
   description: "Soluções integradas de engenharia e manutenção agroindustrial",
   openGraph: {
     type: "website",

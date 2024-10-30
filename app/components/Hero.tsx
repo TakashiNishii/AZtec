@@ -49,11 +49,9 @@ export const Hero = () => {
                 <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-4xl font-bold tracking-tight text-secondary text-center md:text-left sm:text-6xl">
                     Soluções integradas de engenharia
-                  </h1>
-                  <h2 className="text-3xl text-secondary font-bold text-center md:text-left">
-                    &
-                  </h2>
-                  <h1 className="text-4xl font-bold tracking-tight text-secondary text-center md:text-left sm:text-6xl">
+                    <span className="text-3xl text-secondary font-bold text-center md:text-left">
+                      <br />& <br />
+                    </span>
                     {` Manutenção agroindustrial`}
                   </h1>
                   <div className='divider divider-vertical divider-secondary my-0 mt-10 hidden md:block'></div>
@@ -124,7 +122,7 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-      </main>
-    </div>
+      </main >
+    </div >
   )
 }
