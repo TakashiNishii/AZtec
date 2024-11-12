@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import { Header } from "./components";
 import WhatsappButton from "./components/WhatsappButton";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react"
 
 const montserrat = Montserrat({ subsets: ["latin"], weight: "300" });
 
@@ -60,6 +61,7 @@ export default function RootLayout({
         {children}
         <WhatsappButton />
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
